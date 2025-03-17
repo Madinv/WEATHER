@@ -186,10 +186,11 @@ body {
   .search-box {
     flex-direction: row;
     gap: 5px;
+    margin-top: 20px;
   }
   .search-box input {
-    padding: 5px;
-    border-radius: 5px;
+    padding: 10px;
+    border-radius: 10px;
     font-size: 1rem;
   }
   .search-box input::placeholder {
@@ -202,17 +203,18 @@ body {
   .search-button,
   .location,
   .search-icon {
-    width: 30px;
+    width: 50px;
   }
   .search-box button {
     border-radius: 70px;
   }
   .weather-item {
-    width: 50px;
+    width: 100px;
   }
   .weather {
     flex-direction: column;
     gap: 10px;
+    margin-bottom: 10px;
   }
   .weather-details {
     gap: 40px;
